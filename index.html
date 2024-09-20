@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - Sathwik</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom background image styling */
+      body {
+        background-image: url("./pinkFlower.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col items-center bg-opacity-50">
+    <!-- Transparent Header Section -->
+    <header
+      class="w-full p-6 text-center text-white bg-purple-200 bg-opacity-90 backdrop-blur-lg shadow-lg fixed top-0 left-0 z-10 rounded-b-lg"
+    >
+      <h1 class="text-5xl font-extrabold text-purple-800 drop-shadow-md">
+        Your Name
+      </h1>
+      <p class="text-lg mt-2 text-purple-600">Aspiring Full-Stack Developer</p>
+    </header>
+
+    <!-- Main content starts after header -->
+    <main class="w-full flex flex-col items-center mt-20">
+      <!-- About Section -->
+      <section
+        id="about"
+        class="w-full px-4 py-10 bg-white bg-opacity-90 rounded-lg shadow-lg mt-6 max-w-4xl"
+      >
+        <h2 class="text-3xl font-semibold text-center text-purple-700">
+          About Me
+        </h2>
+        <p class="mt-4 text-lg text-center text-gray-700">
+          I am currently pursuing a B.Tech in Computer Science from Velagapudi
+          Ramakrishna Siddhartha Engineering College. Passionate about web
+          development, open-source, and emerging technologies.
+        </p>
+      </section>
+
+      <!-- About Section -->
+      <section
+      id="links"
+      class="w-full px-4 py-10 bg-white bg-opacity-90 rounded-lg shadow-lg mt-6 max-w-4xl"
+    >
+      <h2 class="text-3xl font-semibold text-center text-purple-700">
+        Connect with Me
+      </h2>
+      <p class="mt-4 text-lg text-center text-gray-700">
+        Feel free to connect with me on various platforms.
+      </p>
+      <div class="flex justify-center mt-6 space-x-4">
+        <!-- GitHub -->
+        <a
+          href="https://github.com/Sathwik279"
+          target="_blank"
+          class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition duration-300"
+        >
+          GitHub
+        </a>
+        <!-- LinkedIn -->
+        <a
+          href="http://www.linkedin.com/in/sathwik-sudikonda"
+          target="_blank"
+          class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300"
+        >
+          LinkedIn
+        </a>
+        <!-- LeetCode -->
+        <a
+          href="https://leetcode.com/u/ssathwik/"
+          target="_blank"
+          class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-400 transition duration-300"
+        >
+          LeetCode
+        </a>
+        <!-- HackerRank -->
+        <a
+          href="https://www.hackerrank.com/profile/ssathwik31831"
+          target="_blank"
+          class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-500 transition duration-300"
+        >
+          HackerRank
+        </a>
+      </div>
+    </section>
+    
+
+      <!-- Skills Section -->
+      <section
+        id="skills"
+        class="w-full px-4 py-10 mt-6 bg-purple-200 bg-opacity-90 max-w-4xl rounded-lg shadow-lg"
+      >
+        <h2 class="text-3xl font-semibold text-center text-purple-700">
+          Skills
+        </h2>
+        <div class="flex flex-wrap justify-center mt-6">
+          <span class="bg-purple-600 text-white px-4 py-2 m-2 rounded-full"
+            >JavaScript</span
+          >
+          <span class="bg-purple-600 text-white px-4 py-2 m-2 rounded-full"
+            >Node.js</span
+          >
+          <span class="bg-purple-600 text-white px-4 py-2 m-2 rounded-full"
+            >Tailwind CSS</span
+          >
+          <span class="bg-purple-600 text-white px-4 py-2 m-2 rounded-full"
+            >PostgreSQL</span
+          >
+          <span class="bg-purple-600 text-white px-4 py-2 m-2 rounded-full"
+            >Git & GitHub</span
+          >
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section
+        id="projects"
+        class="w-full px-4 py-10 mt-6 bg-white bg-opacity-90 max-w-4xl rounded-lg shadow-lg"
+      >
+        <h2 class="text-3xl font-semibold text-center text-purple-700">
+          Projects
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+          <!-- Project 1 -->
+          <div class="bg-purple-100 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold text-purple-800">
+              E-waste Locator
+            </h3>
+            <p class="mt-2 text-gray-600">
+              A website for locating e-waste disposal facilities.
+            </p>
+            <a href="#" class="text-purple-600 mt-4 block text-right"
+              >View Project</a
+            >
+          </div>
+          <!-- Project 2 -->
+          <div class="bg-purple-100 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold text-purple-800">
+              Spotify Clone
+            </h3>
+            <p class="mt-2 text-gray-600">
+              A clone of Spotify built using HTML, CSS, and JavaScript.
+            </p>
+            <a href="#" class="text-purple-600 mt-4 block text-right"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section
+        id="certifications"
+        class="w-full px-4 py-10 mt-6 bg-purple-200 bg-opacity-90 max-w-4xl rounded-lg shadow-lg"
+      >
+        <h2 class="text-3xl font-semibold text-center text-purple-700">
+          Certifications
+        </h2>
+        <ul class="list-disc list-inside mt-4 text-gray-700">
+          <li>Programming Essentials in C - Cisco</li>
+          <li>NDG Linux Essentials - Cisco</li>
+          <li>Understanding data science from datacamp.</li>
+          <li>Supervised Machine Learning - Datacamp</li>
+          <li>Student expert in api fundamentals from postman.</li>
+          <li>Intermediate python course from datacamp.</li>
+          <li>Programming in modern c++ from nptel (top 5 percent).</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="w-full py-4 mt-10 text-center text-white bg-gradient-to-r from-purple-600 to-blue-400"
+    ></footer>
+  </body>
+</html>

@@ -49,7 +49,7 @@ export default function App() {
     const created = await createConfig({
       name,
       description: "",
-      snapshot: createDefaultConfig(),
+      snapshot_json: createDefaultConfig(),
       message: "Initial config"
     });
     await refreshConfigs();
